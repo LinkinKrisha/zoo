@@ -1,0 +1,187 @@
+.App{
+    background-color: beige;
+
+}
+
+#home-img{
+    width: 140%;
+}
+#img,#seimg,#thimg,#foimg,#fiimg,#siimg{
+    border: 3px solid;
+    border-color: black;
+     width: 15%;
+     height:150px;
+     padding:2px;
+     margin: 5px;
+}
+li{
+
+    list-style-type: square;
+}
+footer{
+    color: #f4e8e8;
+    background-color: rgb(153, 81, 43);
+}
+#link{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: large;
+    color:bisque;
+    padding-right: 10px;
+
+}   
+#link:hover{
+    color:rgb(210, 160, 185);
+}
+#about-img{
+    margin-top: 5px;
+    border: 3px solid saddlebrown;
+    width: 100%;
+}       
+
+#lion,#tiger,#bino,#bear{
+        border: 3px solid;
+        border-color: black;
+         width: 20%;
+         height:150px;
+         padding:2px;
+         margin: 5px;
+}
+.contact{
+    margin: 10px;
+    height:600px;
+    background-color:rgba(244, 165, 96, 0.365);
+    color:saddlebrown;
+}
+#main-img{
+margin:5px;
+border: 3px solid saddlebrown;
+}
+ul{
+    font-size: larger;
+    color: #f4e8e8;
+    text-align: right;
+    background-color: saddlebrown;
+    height: 50px;
+}
+
+h1,h2,h3,h4{
+    text-decoration: underline saddlebrown;
+}
+#image1{
+    height: 300px;
+    width:500px;
+
+}
+.card{
+ align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid brown;
+}
+.safari-page img {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.8;
+    position: relative;
+  display: inline-block;
+    
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.home{
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.about-main{
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .contact{
+
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .Animal-container {
+    opacity: 0; 
+    display: flexbox; 
+  max-width: 100%; 
+  height: auto;
+  }
+  .Animal-container:hover {
+    animation: fadeIn 0.3s ease-in-out forwards; 
+  }
+  .contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
